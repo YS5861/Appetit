@@ -28,6 +28,7 @@ if not os.path.exists(veritabani_adi):
         __tablename__ = 'malzeme'
         id = Column(Integer, primary_key=True)
         ad = Column(String, unique=True, nullable=False)
+        calories = Column(Integer, nullable=False)
 
     class Yemek(Base):
         __tablename__ = 'yemek'
@@ -36,6 +37,7 @@ if not os.path.exists(veritabani_adi):
         tarif = Column(Text, nullable=False)
         malzemeler = relationship("Malzeme", secondary=yemek_malzeme, backref="yemekler")
         kalori = Column(Text, nullable=False)
+        carbon_footprint = Column(Text, nullable=False)
 
     class GecmisYemek(Base):
         __tablename__ = 'gecmis_yemek'
