@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Appetit</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #E94E4E;
+      --secondary: #A3C585;
+      --background: #FFF4E1;
+      --text: #4A4A4A;
+      --muted: #E0E0E0;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+    }
+    body {
+      background-color: var(--background);
+      color: var(--text);
+    }
+    header {
+      background-color: var(--primary);
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo-container {
+      display: flex;
+      align-items: center;
+    }
+    .logo-container img {
+      height: 50px;
+      margin-right: 1rem;
+    }
+    header h1 {
+      font-size: 1.8rem;
+    }
+    nav a {
+      margin-left: 1.5rem;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+    .hero h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .input-area {
+      margin-top: 2rem;
+    }
+    .input-area input, .input-area button {
+      padding: 0.8rem;
+      font-size: 1rem;
+      margin: 0.3rem;
+      border-radius: 5px;
+      border: 1px solid var(--muted);
+    }
+    .input-area button {
+      background-color: var(--secondary);
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    .recipes {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 1rem;
+      padding: 2rem;
+    }
+    .recipe-card {
+      background-color: white;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: var(--primary);
+      color: white;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="ChatGPT Image 4 May 2025 17_46_11.png" alt="Appetit Logo">
+      <h1>Appetit</h1>
+    </div>
+    <nav>
+      <a href="#">Anasayfa</a>
+      <a href="#">Tarifler</a>
+      <a href="#">Malzeme Girişi</a>
+      <a href="#">Hakkımızda</a>
+    </nav>
+  </header>
+
+<!-- Hero Section İçine Form -->
+<section class="hero">
+  <h2>Evde Ne Varsa, Appetit Orada!</h2>
+  <p>Evdeki malzemeleri gir, sana özel tarif önerelim.</p>
+  <form method="POST">
+    <div class="input-area">
+      <input type="text" name="malzeme" placeholder="Örn: Patates, Soğan, Yumurta">
+      <button type="submit">Tarif Bul</button>
+    </div>
+  </form>
+</section>
+
+<!-- Tarifler Bölümü -->
+<sectio class="recipes">
+  {% for tarif in tarifler %}
+  <div class="recipe-card">
+    <h3>{{ tarif.ad }}</h3>
+    <p>{{ tarif.tarif }}</p>
+  </div>
+  {% endfor %}
+</section>
+
+  <footer>
+    <p>&copy; 2025 Appetit. Tüm Hakları Saklıdır.</p>
+  </footer>
+</body>
+</html>
