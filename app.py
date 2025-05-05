@@ -8,6 +8,10 @@ from Gemini.main import run  # Gemini fonksiyonunu al
 
 app = Flask(__name__)
 
+@app.route('/')
+def index():
+    return render_template("index.html")
+
 #buradaki path geçici olarak oluşturuldu düzenlenmesi gerekiyor.
 @app.route("/index", methods=["GET", "POST"])
 def index():
