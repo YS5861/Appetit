@@ -58,6 +58,6 @@ def run(ingredients: list[str]):
 
     print("✅ Öneriler oluşturuldu. `outputs/` klasöründe raw, JSON ve CSV dosyalarını görebilirsin.")
 
-if __name__ == "__main__":
-    malzemeler = ["patates", "havuç", "tavuk göğsü", "zeytinyağı"]
-    run(malzemeler)
+#if __name__ == "__main__":
+    #malzemeler = ["patates", "havuç", "tavuk göğsü", "zeytinyağı"]
+    #run(malzemeler)

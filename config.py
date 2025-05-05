@@ -2,7 +2,7 @@ import os
 from dotenv import load_dotenv
 
 # .env klasörünü yükle
-dotenv_path = os.path.join(os.path.dirname(__file__), '..', '.env', 'gemini_keys.env')
+dotenv_path = os.path.join('.env/gemini_keys.env')
 load_dotenv(dotenv_path)
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")

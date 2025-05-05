@@ -1,0 +1,146 @@
+[
+  {
+    "name": "Patlıcanlı Domates Soslu Makarna",
+    "ingredients": [
+      {
+        "item": "Patlıcan",
+        "quantity": "1 adet (orta boy)"
+      },
+      {
+        "item": "Domates",
+        "quantity": "4 adet (orta boy)"
+      },
+      {
+        "item": "Makarna",
+        "quantity": "250 gr"
+      },
+      {
+        "item": "Sarımsak",
+        "quantity": "2 diş"
+      },
+      {
+        "item": "Zeytinyağı",
+        "quantity": "3 yemek kaşığı"
+      },
+      {
+        "item": "Tuz",
+        "quantity": "1 çay kaşığı"
+      },
+      {
+        "item": "Karabiber",
+        "quantity": "Yarım çay kaşığı"
+      },
+      {
+        "item": "Kuru fesleğen",
+        "quantity": "1 çay kaşığı"
+      }
+    ]
+  },
+  {
+    "name": "Karpuzlu Feta Salatası (Yan Yemek)",
+    "ingredients": [
+      {
+        "item": "Karpuz",
+        "quantity": "300 gr"
+      },
+      {
+        "item": "Feta Peyniri",
+        "quantity": "100 gr"
+      },
+      {
+        "item": "Nane",
+        "quantity": "5-6 yaprak"
+      },
+      {
+        "item": "Zeytinyağı",
+        "quantity": "1 yemek kaşığı"
+      },
+      {
+        "item": "Limon Suyu",
+        "quantity": "1 yemek kaşığı"
+      },
+      {
+        "item": "Tuz",
+        "quantity": "İsteğe göre"
+      }
+    ]
+  },
+  {
+    "name": "Izgara Patlıcan ve Domates Salatası (Meze)",
+    "ingredients": [
+      {
+        "item": "Patlıcan",
+        "quantity": "2 adet (küçük boy)"
+      },
+      {
+        "item": "Domates",
+        "quantity": "3 adet (küçük boy)"
+      },
+      {
+        "item": "Soğan",
+        "quantity": "yarım adet"
+      },
+      {
+        "item": "Zeytinyağı",
+        "quantity": "2 yemek kaşığı"
+      },
+      {
+        "item": "Sirke",
+        "quantity": "1 yemek kaşığı"
+      },
+      {
+        "item": "Dereotu",
+        "quantity": "1 yemek kaşığı (kıymık)"
+      },
+      {
+        "item": "Tuz",
+        "quantity": "İsteğe göre"
+      },
+      {
+        "item": "Karabiber",
+        "quantity": "İsteğe göre"
+      }
+    ]
+  },
+  {
+    "name": "Domates ve Karpuzlu Bruschetta (Aperatif)",
+    "ingredients": [
+      {
+        "item": "Domates",
+        "quantity": "2 adet (orta boy)"
+      },
+      {
+        "item": "Karpuz",
+        "quantity": "150 gr"
+      },
+      {
+        "item": "Baget",
+        "quantity": "1 adet"
+      },
+      {
+        "item": "Sarımsak",
+        "quantity": "1 diş"
+      },
+      {
+        "item": "Zeytinyağı",
+        "quantity": "2 yemek kaşığı"
+      },
+      {
+        "item": "Balsamik Sirke",
+        "quantity": "1 çay kaşığı"
+      },
+      {
+        "item": "Taze Fesleğen",
+        "quantity": "Birkaç yaprak"
+      },
+      {
+        "item": "Tuz",
+        "quantity": "İsteğe göre"
+      },
+      {
+        "item": "Karabiber",
+        "quantity": "İsteğe göre"
+      }
+    ]
+  }
+]
