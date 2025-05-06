@@ -1,116 +1,129 @@
 [
   {
-    "name": "Kuşkonmaz, Avokadolu Salata",
+    "name": "Kıymalı Patlıcan Salatası",
     "ingredients": [
       {
-        "item": "Kuşkonmaz",
-        "quantity": "2 demet"
-      },
-      {
-        "item": "Avokadon",
+        "item": "Patlıcan",
         "quantity": "2 adet"
       },
       {
-        "item": "Elma (Yeşil)",
+        "item": "Kıyma",
+        "quantity": "250 gr"
+      },
+      {
+        "item": "Domates",
+        "quantity": "2 adet"
+      },
+      {
+        "item": "Soğan",
         "quantity": "1 adet"
       },
       {
-        "item": "Ceviz (büyük)",
-        "quantity": "1/2 su bardağı"
-      },
-      {
-        "item": "Limon suyu",
+        "item": "Sıvıyağ",
         "quantity": "2 yemek kaşığı"
       },
       {
-        "item": "Zeytinyağı",
-        "quantity": "4 yemek kaşığı"
-      },
-      {
         "item": "Tuz",
-        "quantity": "tat vermek için"
+        "quantity": "1 çay kaşığı"
       },
       {
         "item": "Karabiber",
-        "quantity": "tat vermek için"
+        "quantity": "Yarım çay kaşığı"
+      },
+      {
+        "item": "Kimyon",
+        "quantity": "Yarım çay kaşığı"
       }
     ]
   },
   {
-    "name": "Kızarmış Kuşkonmaz ve Elmalı Dolma",
+    "name": "Karpuzlu Feta Salatası (Yan Yemek)",
     "ingredients": [
       {
-        "item": "Kuşkonmaz",
-        "quantity": "1 demet"
+        "item": "Karpuz",
+        "quantity": "500 gr"
       },
       {
-        "item": "Elma (Kırmızı)",
-        "quantity": "2 adet"
+        "item": "Beyaz peynir",
+        "quantity": "100 gr"
       },
       {
-        "item": "Ceviz (büyük)",
-        "quantity": "1/4 su bardağı"
-      },
-      {
-        "item": "Kırmızı soğan",
-        "quantity": "1/2 adet"
+        "item": "Nane",
+        "quantity": "Birkaç dal"
       },
       {
         "item": "Zeytinyağı",
-        "quantity": "3 yemek kaşığı"
+        "quantity": "1 yemek kaşığı"
       },
       {
-        "item": "Bal",
+        "item": "Limon suyu",
         "quantity": "1 yemek kaşığı"
       },
       {
         "item": "Tuz",
-        "quantity": "tat vermek için"
-      },
-      {
-        "item": "Karabiber",
-        "quantity": "tat vermek için"
+        "quantity": "1 çay kaşığı"
       }
     ]
   },
   {
-    "name": "Domatesli Kuşkonmaz ve Avokadolu Soslu Makarna",
+    "name": "Domatesli Kıymalı Makarna (Ana Yemek)",
     "ingredients": [
       {
-        "item": "Kuşkonmaz",
-        "quantity": "1 demet"
+        "item": "Kıyma",
+        "quantity": "250 gr"
       },
       {
         "item": "Domates",
         "quantity": "3 adet"
       },
       {
-        "item": "Avokadon",
+        "item": "Soğan",
         "quantity": "1 adet"
-      },
-      {
-        "item": "Makarna (penne)",
-        "quantity": "400 gr"
       },
       {
         "item": "Sarımsak",
         "quantity": "2 diş"
       },
       {
-        "item": "Zeytinyağı",
-        "quantity": "4 yemek kaşığı"
+        "item": "Makarna",
+        "quantity": "400 gr"
       },
       {
-        "item": "Su",
-        "quantity": "1 su bardağı"
+        "item": "Sıvıyağ",
+        "quantity": "2 yemek kaşığı"
       },
       {
         "item": "Tuz",
-        "quantity": "tat vermek için"
+        "quantity": "1 çay kaşığı"
       },
       {
         "item": "Karabiber",
-        "quantity": "tat vermek için"
+        "quantity": "Yarım çay kaşığı"
+      },
+      {
+        "item": "Kekik",
+        "quantity": "Yarım çay kaşığı"
+      }
+    ]
+  },
+  {
+    "name": "Beyaz Peynirli Karpuz Küpleri (Tatlı)",
+    "ingredients": [
+      {
+        "item": "Karpuz",
+        "quantity": "500 gr"
+      },
+      {
+        "item": "Beyaz peynir",
+        "quantity": "100 gr"
+      },
+      {
+        "item": "Nane",
+        "quantity": "Birkaç dal"
+      },
+      {
+        "item": "Bal",
+        "quantity": "1 yemek kaşığı"
       }
     ]
   }

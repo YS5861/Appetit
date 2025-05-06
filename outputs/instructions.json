@@ -1,14 +1,18 @@
 [
   {
-    "meal": "Kuşkonmaz, Avokadolu Salata",
-    "steps": "1. Kuşkonmazları haşlayın veya buharda pişirin. 2. Avokadoyu küp küp doğrayın. 3. Elmayı küçük parçalar halinde doğrayın. 4. Cevizi kaba kıyın. 5. Tüm malzemeleri bir kapta karıştırın. 6. Limon suyu, zeytinyağı, tuz ve karabiberi ekleyip karıştırın."
+    "meal": "Kıymalı Patlıcan Salatası",
+    "steps": "1. Patlıcanları küp küp doğrayıp tuzlayın ve 15 dakika bekletin. Fazla suyunu sıkın. 2. Soğanı doğrayıp sıvıyağda kavurun. Kıymayı ekleyip kızarana kadar pişirin. 3. Doğranmış domatesleri, baharatları ekleyip pişmeye bırakın. 4. Patlıcanları ekleyip 5 dakika daha pişirin. Servis edin."
   },
   {
-    "meal": "Kızarmış Kuşkonmaz ve Elmalı Dolma",
-    "steps": "1. Elmaları soyup çekirdeklerini çıkarın ve küçük küpler halinde doğrayın. 2. Kırmızı soğanı ince ince doğrayın. 3. Cevizi kaba kıyın. 4. Zeytinyağını bir tavada ısıtın, soğanı ve elmayı kavurun. 5. Cevizi ekleyin ve karıştırın. 6. Kuşkonmazları kızartın veya fırında pişirin. 7. Elma ve cevizli karışımı kuşkonmazlarla birlikte servis edin."
+    "meal": "Karpuzlu Feta Salatası",
+    "steps": "1. Karpuzu küp küp doğrayın. 2. Beyaz peyniri küp küp doğrayın. 3. Naneyi ince ince kıyın. 4. Karpuz, peynir ve naneyi bir kapta karıştırın. 5. Zeytinyağı, limon suyu ve tuzu ekleyip karıştırın. Servis edin."
   },
   {
-    "meal": "Domatesli Kuşkonmaz ve Avokadolu Soslu Makarna",
-    "steps": "1. Makarnayı haşlayın. 2. Domatesleri ve sarımsağı doğrayın. 3. Zeytinyağını bir tavada ısıtın, sarımsağı ve domatesleri kavurun. 4. Kuşkonmazları ekleyin ve birkaç dakika daha pişirin. 5. Suyu ekleyin ve kaynatın. 6. Avokadoyu püre haline getirin ve sosu hazırlayın. 7. Makarnayı sosa ekleyip karıştırın."
+    "meal": "Domatesli Kıymalı Makarna",
+    "steps": "1. Soğan ve sarımsağı doğrayıp sıvı yağda kavurun. 2. Kıymayı ekleyip kızarana kadar pişirin. 3. Doğranmış domatesleri, baharatları ekleyip 10 dakika pişirin. 4. Makarnayı haşlayın. 5. Sosu makarnaya ekleyip karıştırın. Servis edin."
+  },
+  {
+    "meal": "Beyaz Peynirli Karpuz Küpleri",
+    "steps": "1. Karpuzu küp küp doğrayın. 2. Beyaz peyniri küp küp doğrayın. 3. Naneyi ince ince kıyın. 4. Karpuz ve peynir küplerini bir kapta karıştırın. 5. Üzerine bal ve nane serpin. Servis edin."
   }
 ]

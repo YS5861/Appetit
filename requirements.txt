@@ -5,3 +5,8 @@ dotenv == 0.9.9
 google-generativeai == 0.8.5
 python-dotenv~=1.0.1
 protobuf~=4.25.5
+numpy
+matplotlib
+seaborn
+scikit-learn
+joblib
