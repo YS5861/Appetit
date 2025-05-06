@@ -1,0 +1,106 @@
+```json
+{
+  "meals": [
+    {
+      "name": "Patlıcanlı Domates Soslu Makarna",
+      "ingredients": [
+        {"item": "Patlıcan", "quantity": "1 adet (orta boy)"},
+        {"item": "Domates", "quantity": "500 gr"},
+        {"item": "Makarna", "quantity": "250 gr"},
+        {"item": "Sarımsak", "quantity": "2 diş"},
+        {"item": "Zeytinyağı", "quantity": "3 yemek kaşığı"},
+        {"item": "Soğan", "quantity": "1 adet (orta boy)"},
+        {"item": "Kekik", "quantity": "1 çay kaşığı"},
+        {"item": "Tuz", "quantity": "Tada göre"},
+        {"item": "Karabiber", "quantity": "Tada göre"}
+      ]
+    },
+    {
+      "name": "Domates ve Karpuz Salatası",
+      "ingredients": [
+        {"item": "Domates", "quantity": "2 adet (orta boy)"},
+        {"item": "Karpuz", "quantity": "2 su bardağı (küp doğranmış)"},
+        {"item": "Feta Peyniri", "quantity": "50 gr"},
+        {"item": "Zeytinyağı", "quantity": "2 yemek kaşığı"},
+        {"item": "Nane", "quantity": "Birkaç yaprak"},
+        {"item": "Tuz", "quantity": "Tada göre"},
+        {"item": "Karabiber", "quantity": "Tada göre"}
+
+      ]
+    },
+    {
+      "name": "Izgara Patlıcan ve Karpuz Soslu Tavuk",
+      "ingredients": [
+        {"item": "Patlıcan", "quantity": "2 adet (orta boy)"},
+        {"item": "Karpuz", "quantity": "1 su bardağı (küp doğranmış)"},
+        {"item": "Tavuk göğsü", "quantity": "2 adet"},
+        {"item": "Zeytinyağı", "quantity": "4 yemek kaşığı"},
+        {"item": "Bal", "quantity": "1 yemek kaşığı"},
+        {"item": "Limon suyu", "quantity": "1 yemek kaşığı"},
+        {"item": "Kimyon", "quantity": "1 çay kaşığı"},
+        {"item": "Tuz", "quantity": "Tada göre"},
+        {"item": "Karabiber", "quantity": "Tada göre"}
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "meal": "Patlıcanlı Domates Soslu Makarna",
+      "steps": [
+        "Patlıcanı küp küp doğrayıp zeytinyağında hafifçe kızartın.",
+        "Soğanı ve sarımsağı kavurun.",
+        "Domatesleri ekleyip, kekik, tuz ve karabiberle birlikte pişirin.",
+        "Haşlanmış makarnayı sosla karıştırın."
+      ],
+      "tips": "Patlıcanı fazla kızartmayın ki sulu kalabilsin. Sosu daha koyu kıvamlı tercih ederseniz domatesleri biraz daha uzun süre pişirebilirsiniz."
+    },
+    {
+      "meal": "Domates ve Karpuz Salatası",
+      "steps": [
+        "Domatesleri ve karpuzu küp küp doğrayın.",
+        "Feta peynirini ufalayın.",
+        "Tüm malzemeleri bir kapta karıştırın.",
+        "Zeytinyağı, nane, tuz ve karabiberi ekleyin."
+      ],
+      "tips": "Taze nane kullanın. Karpuzun çok sulu olmaması için biraz bekletin."
+    },
+    {
+      "meal": "Izgara Patlıcan ve Karpuz Soslu Tavuk",
+      "steps": [
+        "Patlıcanları ve tavukları zeytinyağı, bal, limon suyu, kimyon, tuz ve karabiber ile marine edin.",
+        "Patlıcanları ve tavukları ızgarada pişirin.",
+        "Karpuzu küp doğrayıp, pişmiş tavuğun üzerine koyun."
+      ],
+      "tips": "Tavukların iyi pişdiğinden emin olun. Karpuz sosu için farklı baharatlar da deneyebilirsiniz."
+    }
+  ],
+  "macros": [
+    {
+      "name": "Patlıcanlı Domates Soslu Makarna",
+      "carbs_g": 70,
+      "protein_g": 15,
+      "fat_g": 10,
+      "calories_kcal": 450,
+      "GHG": 0.5
+    },
+    {
+      "name": "Domates ve Karpuz Salatası",
+      "carbs_g": 30,
+      "protein_g": 10,
+      "fat_g": 15,
+      "calories_kcal": 250,
+      "GHG": 0.3
+    },
+    {
+      "name": "Izgara Patlıcan ve Karpuz Soslu Tavuk",
+      "carbs_g": 25,
+      "protein_g": 35,
+      "fat_g": 15,
+      "calories_kcal": 350,
+      "GHG": 0.4
+    }
+  ]
+}
+```
+
+**Not:** Makro besin değerleri ve sera gazı salınımı tahmini değerlerdir ve kullanılan malzemenin türüne, miktarına ve pişirme yöntemine bağlı olarak değişebilir.  Sera gazı salınım değerleri oldukça karmaşık hesaplamalar gerektirir ve buradaki değerler basitleştirilmiş bir yaklaşımı temsil etmektedir. Daha doğru değerler için detaylı bir yaşam döngüsü analizi gerekmektedir.

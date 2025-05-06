@@ -1,38 +1,39 @@
 import sys
-import os  # gemini dizinini sys.path'e ekle
+import os
 import json
-from flask import Flask, render_template, request
-from gemini_execute import run  # Gemini fonksiyonunu al
-
-sys.path.append('../gemini')
+from flask import Flask, render_template, request, flash
+from gemini_execute import run
+from pathlib import Path
 
 app = Flask(__name__)
+app.config['SECRET_KEY'] = 'appetit-secret-key'  # Flash mesajları için gerekli
 
-@app.route('/')
+@app.route('/', methods=["GET"])
 def index():
     return render_template("index.html")
 
-#buradaki path geçici olarak oluşturuldu düzenlenmesi gerekiyor.
 @app.route("/index", methods=["GET", "POST"])
 def index_post():
     tarifler = []
     if request.method == "POST":
-        #hangi div den veri geldiğine aşağıda köşeli parantez içinde verilen kısım belirliyor
-        girilen = request.form["malzeme"]
-        malzemeler = [m.strip().lower() for m in girilen.split(",")]
-        print("Girilen malzemeler:", malzemeler)
-        # Gemini ile tarifleri al
-        run(malzemeler)
-
-        # outputs klasöründeki JSON'u oku
-        out_path = "outputs/meals.json"
-        
-        if os.path.exists(out_path):
-            with open(out_path, "r", encoding="utf-8") as f:
-                tarifler = json.load(f)
+        try:
+            girilen = request.form["malzeme"]
+            malzemeler = [m.strip().lower() for m in girilen.split(",")]
+            print("Girilen malzemeler:", malzemeler)
+            
+            # Gemini ile tarifleri al - bu işlev artık hata durumunda bile bir sonuç döndürecek
+            tarifler = run(malzemeler)
+            
+            # Hiç tarif dönmediyse
+            if not tarifler:
+                tarifler = [{"name": "Tarif bulunamadı", "description": "Verilen malzemelerle tarif oluşturulamadı."}]
+                
+        except Exception as e:
+            print(f"Hata oluştu: {str(e)}")
+            flash(f"İşlem sırasında bir hata oluştu: {str(e)}", "error")
+            tarifler = [{"name": "Hata", "description": f"İşlem sırasında bir hata oluştu: {str(e)}"}]
 
     return render_template("index.html", tarifler=tarifler)
 
-
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)

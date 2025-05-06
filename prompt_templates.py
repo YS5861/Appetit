@@ -3,11 +3,10 @@ def recipe_prompt(ingredients: list[str]) -> str:
     return f"""
 Verilen malzemeler: {ing_list}.
 
-Lütfen dört bölüm halinde, açık ve yapılandırılmış şekilde çıktı ver:
+Lütfen üç bölüm halinde, açık ve yapılandırılmış şekilde çıktı ver:
 1) 3 adet ana yemek (mümkünse yan yemeklerle birlikte) ve her tarif için gerekli malzeme miktarları.
 2) Her yemeğin yapılış aşamaları ve püf noktaları.
-3) Her yemeğin makro besin değerleri (karbonhidrat, protein, yağ), kalori miktarı. CSV formatında da uygun.
-4) Her tarif için tahmini karbon ayak izi (kg CO2e olarak).
+3) Her yemeğin makro besin değerleri (karbonhidrat, protein, yağ), kalori miktarı ve sera gazı salınımı. CSV formatında da uygun.
 
 Cevabı JSON objesi şeklinde ver:
 ```json
@@ -20,10 +19,8 @@ Cevabı JSON objesi şeklinde ver:
   ],
   "instructions": ["...", "...", ...],
   "macros": [
-    {{"name":"...","carbs_g":0,"protein_g":0,"fat_g":0}}
+    {{"name":"...","carbs_g":0,"protein_g":0,"fat_g":0,"calories_kcal":0,"GHG":0}},
   ],
-  "carbon_footprint": [
-    {{"name":"...","co2e_kg":0.0}}
-  ]
+
 }}
 ```"""

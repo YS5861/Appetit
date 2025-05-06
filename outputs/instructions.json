@@ -2,52 +2,30 @@
   {
     "meal": "Patlıcanlı Domates Soslu Makarna",
     "steps": [
-      "Patlıcanı küp küp doğrayıp zeytinyağında soteleyin.",
-      "Domatesleri incecik doğrayın. Sarımsakları ezin.",
-      "Patlıcana domates, sarımsak, tuz ve karabiberi ekleyip 10 dakika pişirin.",
-      "Makarnayı haşlayın.",
-      "Sos hazır olduğunda makarnayı ekleyip karıştırın. Kuru fesleğen ile süsleyerek servis yapın."
+      "Patlıcanı küp küp doğrayıp zeytinyağında hafifçe kızartın.",
+      "Soğanı ve sarımsağı kavurun.",
+      "Domatesleri ekleyip, kekik, tuz ve karabiberle birlikte pişirin.",
+      "Haşlanmış makarnayı sosla karıştırın."
     ],
-    "tips": [
-      "Patlıcanı fazla pişirmemeye dikkat edin, yumuşak fakat diri kalmalı."
-    ]
+    "tips": "Patlıcanı fazla kızartmayın ki sulu kalabilsin. Sosu daha koyu kıvamlı tercih ederseniz domatesleri biraz daha uzun süre pişirebilirsiniz."
   },
   {
-    "meal": "Karpuzlu Feta Salatası",
+    "meal": "Domates ve Karpuz Salatası",
     "steps": [
-      "Karpuzu küp küp doğrayın.",
-      "Feta peynirini küp küp doğrayın.",
-      "Nane yapraklarını incecik doğrayın.",
+      "Domatesleri ve karpuzu küp küp doğrayın.",
+      "Feta peynirini ufalayın.",
       "Tüm malzemeleri bir kapta karıştırın.",
-      "Zeytinyağı, limon suyu ve tuzu ekleyip karıştırın."
+      "Zeytinyağı, nane, tuz ve karabiberi ekleyin."
     ],
-    "tips": [
-      "Karpuzu çok önceden doğramayın, sulanabilir."
-    ]
+    "tips": "Taze nane kullanın. Karpuzun çok sulu olmaması için biraz bekletin."
   },
   {
-    "meal": "Izgara Patlıcan ve Domates Salatası",
+    "meal": "Izgara Patlıcan ve Karpuz Soslu Tavuk",
     "steps": [
-      "Patlıcan ve domatesleri yıkayıp dilimleyin.",
-      "Soğanı incecik doğrayın.",
-      "Patlıcan ve domatesleri zeytinyağı ile yağlayıp ızgarada pişirin.",
-      "Pişen sebzeleri bir kapta karıştırın. Soğanı, sirkeyi, dereotunu, tuz ve karabiberi ekleyip karıştırın."
+      "Patlıcanları ve tavukları zeytinyağı, bal, limon suyu, kimyon, tuz ve karabiber ile marine edin.",
+      "Patlıcanları ve tavukları ızgarada pişirin.",
+      "Karpuzu küp doğrayıp, pişmiş tavuğun üzerine koyun."
     ],
-    "tips": [
-      "Izgarada pişirme süresi sebzelerin kalınlığına göre değişir."
-    ]
-  },
-  {
-    "meal": "Domates ve Karpuzlu Bruschetta",
-    "steps": [
-      "Bagetleri dilimleyin ve hafif kızartın veya fırında ısıtın.",
-      "Domatesleri ve karpuzu küçük küpler halinde doğrayın.",
-      "Sarımsağı ezin.",
-      "Domates, karpuz, sarımsak, zeytinyağı, balsamik sirke, fesleğen, tuz ve karabiberi karıştırın.",
-      "Hazırladığınız karışımı baget dilimlerinin üzerine yayın."
-    ],
-    "tips": [
-      "Bagetleri fazla kızartmayın, çıtır çıtır kalmalı."
-    ]
+    "tips": "Tavukların iyi pişdiğinden emin olun. Karpuz sosu için farklı baharatlar da deneyebilirsiniz."
   }
 ]
