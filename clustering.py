@@ -1,4 +1,4 @@
-import numpy as np
+# import numpy as np
 import pandas as pd
 import os
 from sklearn.cluster import KMeans
@@ -45,9 +45,9 @@ def cluster_data() -> pd.DataFrame:
         X = pca_loaded.transform(X)
         
         # Get KMeans cluster labels
+        # Get KMeans cluster labels
         labels = kmeans_loaded.predict(X)
         print(labels)
-        
         # Add results to the dataframe
         data_["pca1"] = X[:, 0]
         data_["pca2"] = X[:, 1]

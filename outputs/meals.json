@@ -1,18 +1,96 @@
 [
   {
-    "name": "Patlıcanlı Domates Soslu Makarna",
+    "name": "Kuşkonmaz, Avokadolu Salata",
     "ingredients": [
       {
-        "item": "Patlıcan",
-        "quantity": "1 adet (orta boy)"
+        "item": "Kuşkonmaz",
+        "quantity": "2 demet"
+      },
+      {
+        "item": "Avokadon",
+        "quantity": "2 adet"
+      },
+      {
+        "item": "Elma (Yeşil)",
+        "quantity": "1 adet"
+      },
+      {
+        "item": "Ceviz (büyük)",
+        "quantity": "1/2 su bardağı"
+      },
+      {
+        "item": "Limon suyu",
+        "quantity": "2 yemek kaşığı"
+      },
+      {
+        "item": "Zeytinyağı",
+        "quantity": "4 yemek kaşığı"
+      },
+      {
+        "item": "Tuz",
+        "quantity": "tat vermek için"
+      },
+      {
+        "item": "Karabiber",
+        "quantity": "tat vermek için"
+      }
+    ]
+  },
+  {
+    "name": "Kızarmış Kuşkonmaz ve Elmalı Dolma",
+    "ingredients": [
+      {
+        "item": "Kuşkonmaz",
+        "quantity": "1 demet"
+      },
+      {
+        "item": "Elma (Kırmızı)",
+        "quantity": "2 adet"
+      },
+      {
+        "item": "Ceviz (büyük)",
+        "quantity": "1/4 su bardağı"
+      },
+      {
+        "item": "Kırmızı soğan",
+        "quantity": "1/2 adet"
+      },
+      {
+        "item": "Zeytinyağı",
+        "quantity": "3 yemek kaşığı"
+      },
+      {
+        "item": "Bal",
+        "quantity": "1 yemek kaşığı"
+      },
+      {
+        "item": "Tuz",
+        "quantity": "tat vermek için"
+      },
+      {
+        "item": "Karabiber",
+        "quantity": "tat vermek için"
+      }
+    ]
+  },
+  {
+    "name": "Domatesli Kuşkonmaz ve Avokadolu Soslu Makarna",
+    "ingredients": [
+      {
+        "item": "Kuşkonmaz",
+        "quantity": "1 demet"
       },
       {
         "item": "Domates",
-        "quantity": "500 gr"
+        "quantity": "3 adet"
       },
       {
-        "item": "Makarna",
-        "quantity": "250 gr"
+        "item": "Avokadon",
+        "quantity": "1 adet"
+      },
+      {
+        "item": "Makarna (penne)",
+        "quantity": "400 gr"
       },
       {
         "item": "Sarımsak",
@@ -20,97 +98,19 @@
       },
       {
         "item": "Zeytinyağı",
-        "quantity": "3 yemek kaşığı"
-      },
-      {
-        "item": "Soğan",
-        "quantity": "1 adet (orta boy)"
-      },
-      {
-        "item": "Kekik",
-        "quantity": "1 çay kaşığı"
-      },
-      {
-        "item": "Tuz",
-        "quantity": "Tada göre"
-      },
-      {
-        "item": "Karabiber",
-        "quantity": "Tada göre"
-      }
-    ]
-  },
-  {
-    "name": "Domates ve Karpuz Salatası",
-    "ingredients": [
-      {
-        "item": "Domates",
-        "quantity": "2 adet (orta boy)"
-      },
-      {
-        "item": "Karpuz",
-        "quantity": "2 su bardağı (küp doğranmış)"
-      },
-      {
-        "item": "Feta Peyniri",
-        "quantity": "50 gr"
-      },
-      {
-        "item": "Zeytinyağı",
-        "quantity": "2 yemek kaşığı"
-      },
-      {
-        "item": "Nane",
-        "quantity": "Birkaç yaprak"
-      },
-      {
-        "item": "Tuz",
-        "quantity": "Tada göre"
-      },
-      {
-        "item": "Karabiber",
-        "quantity": "Tada göre"
-      }
-    ]
-  },
-  {
-    "name": "Izgara Patlıcan ve Karpuz Soslu Tavuk",
-    "ingredients": [
-      {
-        "item": "Patlıcan",
-        "quantity": "2 adet (orta boy)"
-      },
-      {
-        "item": "Karpuz",
-        "quantity": "1 su bardağı (küp doğranmış)"
-      },
-      {
-        "item": "Tavuk göğsü",
-        "quantity": "2 adet"
-      },
-      {
-        "item": "Zeytinyağı",
         "quantity": "4 yemek kaşığı"
       },
       {
-        "item": "Bal",
-        "quantity": "1 yemek kaşığı"
-      },
-      {
-        "item": "Limon suyu",
-        "quantity": "1 yemek kaşığı"
-      },
-      {
-        "item": "Kimyon",
-        "quantity": "1 çay kaşığı"
+        "item": "Su",
+        "quantity": "1 su bardağı"
       },
       {
         "item": "Tuz",
-        "quantity": "Tada göre"
+        "quantity": "tat vermek için"
       },
       {
         "item": "Karabiber",
-        "quantity": "Tada göre"
+        "quantity": "tat vermek için"
       }
     ]
   }

@@ -1,0 +1,104 @@
+{
+  "meals": [
+    {
+      "name": "Kıymalı Patlıcan Salatası",
+      "ingredients": [
+        {"item": "Patlıcan", "quantity": "2 adet"},
+        {"item": "Kıyma", "quantity": "250 gr"},
+        {"item": "Domates", "quantity": "2 adet"},
+        {"item": "Soğan", "quantity": "1 adet"},
+        {"item": "Sıvı yağ", "quantity": "2 yemek kaşığı"},
+        {"item": "Tuz", "quantity": "1 çay kaşığı"},
+        {"item": "Karabiber", "quantity": "Yarım çay kaşığı"},
+        {"item": "Kırmızı pul biber", "quantity": "İsteğe bağlı"},
+        {"item": "Maydanoz", "quantity": "1 yemek kaşığı (doğranmış)}"
+      ]
+    },
+    {
+      "name": "Domatesli Kıyma Soslu Makarna",
+      "ingredients": [
+        {"item": "Kıyma", "quantity": "300 gr"},
+        {"item": "Domates", "quantity": "4 adet (konserve veya taze)" },
+        {"item": "Makarna", "quantity": "500 gr"},
+        {"item": "Soğan", "quantity": "1 adet"},
+        {"item": "Sarımsak", "quantity": "2 diş"},
+        {"item": "Sıvı yağ", "quantity": "2 yemek kaşığı"},
+        {"item": "Tuz", "quantity": "1 çay kaşığı"},
+        {"item": "Karabiber", "quantity": "Yarım çay kaşığı"},
+        {"item": "Kekik", "quantity": "1 çay kaşığı"},
+        {"item": "Su", "quantity": "1 su bardağı"}
+      ]
+    },
+    {
+      "name": "Beyaz Peynirli Karpuz Salatası (Yan Yemek)",
+      "ingredients": [
+        {"item": "Karpuz", "quantity": "500 gr"},
+        {"item": "Beyaz peynir", "quantity": "100 gr"},
+        {"item": "Nane", "quantity": "Birkaç dal"},
+        {"item": "Limon suyu", "quantity": "1 yemek kaşığı"}
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "meal": "Kıymalı Patlıcan Salatası",
+      "steps": [
+        "Patlıcanları küp küp doğrayıp, tuzlayıp 15 dakika bekletin. Ardından yıkayıp suyunu sıkın.",
+        "Soğanı ince ince doğrayıp sıvı yağda kavurun.",
+        "Kıymayı ekleyip kızarana kadar pişirin.",
+        "Doğranmış domatesleri ve baharatları ekleyin, 5 dakika pişirin.",
+        "Sıkılmış patlıcanları ekleyip karıştırın.",
+        "Maydanozla süsleyip servis yapın."
+      ],
+      "tips": ["Patlıcanın acılığını almak için tuzlayıp bekletin.", "Kıymayı çok fazla pişirmeyin, sulu kalmasına dikkat edin."]
+    },
+    {
+      "meal": "Domatesli Kıyma Soslu Makarna",
+      "steps":[
+        "Soğan ve sarımsağı sıvı yağda kavurun.",
+        "Kıymayı ekleyip kızarana kadar pişirin.",
+        "Doğranmış domatesleri (konserve ise suyunu da ekleyin), baharatları ve suyu ekleyin. Kaynatıp kısık ateşte 15 dakika pişirin.",
+        "Makarnayı haşlayın.",
+        "Haşlanmış makarnayı sosla karıştırıp servis yapın."
+      ],
+      "tips": ["Sosun kıvamını ayarlamak için su miktarını değiştirebilirsiniz.", "Taze domates kullanıyorsanız, daha fazla pişirme süresi gerekebilir."]
+    },
+    {
+      "meal": "Beyaz Peynirli Karpuz Salatası",
+      "steps": [
+        "Karpuzu küp küp doğrayın.",
+        "Beyaz peyniri küp küp doğrayın.",
+        "Nane yapraklarını ince ince doğrayın.",
+        "Tüm malzemeleri bir kapta karıştırın.",
+        "Üzerine limon suyu sıkıp servis yapın."
+      ],
+      "tips": ["Karpuzu çok önceden doğramayın, sulanabilir.", "Taze nane kullanın."]
+    }
+  ],
+  "macros": [
+    {
+      "name": "Kıymalı Patlıcan Salatası",
+      "carbs_g": 20,
+      "protein_g": 25,
+      "fat_g": 15,
+      "calories_kcal": 300,
+      "GHG": 500
+    },
+    {
+      "name": "Domatesli Kıyma Soslu Makarna",
+      "carbs_g": 70,
+      "protein_g": 35,
+      "fat_g": 20,
+      "calories_kcal": 550,
+      "GHG": 700
+    },
+    {
+      "name": "Beyaz Peynirli Karpuz Salatası",
+      "carbs_g": 25,
+      "protein_g": 10,
+      "fat_g": 10,
+      "calories_kcal": 200,
+      "GHG": 200
+    }
+  ]
+}

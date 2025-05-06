@@ -6,6 +6,12 @@
   <title>Appetit</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <style>
+    .clustering {
+      font-size: 1.2rem;
+      color: #E94E4E;
+      text-align: center;
+      font-weight: bold;
+    }
     :root {
       --primary: #E94E4E;
       --secondary: #A3C585;
@@ -73,6 +79,8 @@
       cursor: pointer;
     }
     .recipes {
+      align-self: center;
+      align-items: center;
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
       gap: 1rem;
@@ -91,12 +99,16 @@
       color: white;
       margin-top: 2rem;
     }
+    .logo-container{
+
+      text-align: center;
+    }
   </style>
 </head>
 <body>
   <header>
     <div class="logo-container">
-      <img src="ChatGPT Image 4 May 2025 17_46_11.png" alt="Appetit Logo">
+      <img src="templates/logo.jpg" alt="Appetit Logo">
       <h1>Appetit</h1>
     </div>
     <nav>
@@ -118,19 +130,29 @@
     </div>
   </form>
 </section>
-
-<!-- Tarifler Bölümü -->
-<sectio class="recipes">
+<section class="recipes">
   {% for tarif in tarifler %}
-  <div class="recipe-card">
-    <h3>{{ tarif.ad }}</h3>
-    <p>{{ tarif.tarif }}</p>
-  </div>
+<div class="recipe-card" data-tarif-id="{{ tarif.id }}" onclick="getDetails(this)">
+  <h2 class="clustering">Kümeleme: {{ tarif.cluster }}</h2>
+  <h3>{{ tarif.ad }}</h3>
+  <p>{{ tarif.tarif}}</p>
+  <h3>Tarif:</h3>
+  <p>{{ tarif.instructions }}</p>
+  <h3>Makrolar</h3>
+  <p>Kalori: {{ tarif.kalori}} kcal</p>
+  <p>Karbonhidrat: {{ tarif.karbonhidrat}} g</p>
+  <p>Protein: {{ tarif.protein}} g</p>
+  <p>Yağ: {{tarif.yag}} g</p>
+  <h3>Sera Gazı: {{tarif.GHG}}</h3>
+</div>
+
   {% endfor %}
 </section>
 
   <footer>
     <p>&copy; 2025 Appetit. Tüm Hakları Saklıdır.</p>
   </footer>
+
+
 </body>
 </html>

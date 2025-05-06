@@ -1,31 +1,14 @@
 [
   {
-    "meal": "Patlıcanlı Domates Soslu Makarna",
-    "steps": [
-      "Patlıcanı küp küp doğrayıp zeytinyağında hafifçe kızartın.",
-      "Soğanı ve sarımsağı kavurun.",
-      "Domatesleri ekleyip, kekik, tuz ve karabiberle birlikte pişirin.",
-      "Haşlanmış makarnayı sosla karıştırın."
-    ],
-    "tips": "Patlıcanı fazla kızartmayın ki sulu kalabilsin. Sosu daha koyu kıvamlı tercih ederseniz domatesleri biraz daha uzun süre pişirebilirsiniz."
+    "meal": "Kuşkonmaz, Avokadolu Salata",
+    "steps": "1. Kuşkonmazları haşlayın veya buharda pişirin. 2. Avokadoyu küp küp doğrayın. 3. Elmayı küçük parçalar halinde doğrayın. 4. Cevizi kaba kıyın. 5. Tüm malzemeleri bir kapta karıştırın. 6. Limon suyu, zeytinyağı, tuz ve karabiberi ekleyip karıştırın."
   },
   {
-    "meal": "Domates ve Karpuz Salatası",
-    "steps": [
-      "Domatesleri ve karpuzu küp küp doğrayın.",
-      "Feta peynirini ufalayın.",
-      "Tüm malzemeleri bir kapta karıştırın.",
-      "Zeytinyağı, nane, tuz ve karabiberi ekleyin."
-    ],
-    "tips": "Taze nane kullanın. Karpuzun çok sulu olmaması için biraz bekletin."
+    "meal": "Kızarmış Kuşkonmaz ve Elmalı Dolma",
+    "steps": "1. Elmaları soyup çekirdeklerini çıkarın ve küçük küpler halinde doğrayın. 2. Kırmızı soğanı ince ince doğrayın. 3. Cevizi kaba kıyın. 4. Zeytinyağını bir tavada ısıtın, soğanı ve elmayı kavurun. 5. Cevizi ekleyin ve karıştırın. 6. Kuşkonmazları kızartın veya fırında pişirin. 7. Elma ve cevizli karışımı kuşkonmazlarla birlikte servis edin."
   },
   {
-    "meal": "Izgara Patlıcan ve Karpuz Soslu Tavuk",
-    "steps": [
-      "Patlıcanları ve tavukları zeytinyağı, bal, limon suyu, kimyon, tuz ve karabiber ile marine edin.",
-      "Patlıcanları ve tavukları ızgarada pişirin.",
-      "Karpuzu küp doğrayıp, pişmiş tavuğun üzerine koyun."
-    ],
-    "tips": "Tavukların iyi pişdiğinden emin olun. Karpuz sosu için farklı baharatlar da deneyebilirsiniz."
+    "meal": "Domatesli Kuşkonmaz ve Avokadolu Soslu Makarna",
+    "steps": "1. Makarnayı haşlayın. 2. Domatesleri ve sarımsağı doğrayın. 3. Zeytinyağını bir tavada ısıtın, sarımsağı ve domatesleri kavurun. 4. Kuşkonmazları ekleyin ve birkaç dakika daha pişirin. 5. Suyu ekleyin ve kaynatın. 6. Avokadoyu püre haline getirin ve sosu hazırlayın. 7. Makarnayı sosa ekleyip karıştırın."
   }
 ]

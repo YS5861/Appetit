@@ -48,6 +48,8 @@ def run(ingredients: list[str]):
             raise ValueError("Gemini çıktısından JSON parse edilemedi:\n" + raw_text)
         
         json_text = match.group(0)
+
+        #data = json.loads(match.group(0))
         
         # JSON'ı düzeltmeye çalış
         try:
@@ -63,11 +65,11 @@ def run(ingredients: list[str]):
             json_text = re.sub(r'(\d+)(\s+)"', r'\1",\2"', json_text)
             
             # Manuel bir default JSON yapısı oluştur
-            data = {
+            """data = {
                 "meals": [{"name": "Öneri bulunamadı", "description": "Gemini API'den gelen cevap işlenemedi."}],
                 "instructions": [],
                 "macros": [{"name": "N/A", "calories": 0, "protein": 0, "carbs": 0, "fat": 0}]
-            }
+            }"""
             
             # Düzeltilmiş JSON'ı kaydet
             with open(out_dir / "fixed_json.txt", "w", encoding="utf-8") as f:
