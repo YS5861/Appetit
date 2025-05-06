@@ -81,6 +81,8 @@
     .recipes {
       align-self: center;
       align-items: center;
+      align-self: center;
+      align-items: center;
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
       gap: 1rem;
@@ -98,6 +100,10 @@
       background-color: var(--primary);
       color: white;
       margin-top: 2rem;
+    }
+    .logo-container{
+
+      text-align: center;
     }
     .logo-container{
 
@@ -130,6 +136,7 @@
     </div>
   </form>
 </section>
+<section class="recipes">
 <section class="recipes">
   {% for tarif in tarifler %}
 <div class="recipe-card" data-tarif-id="{{ tarif.id }}" onclick="getDetails(this)">
