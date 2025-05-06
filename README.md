@@ -36,6 +36,10 @@ jupyter notebook ile hazırlanan kümeleme algoritması models bölümünde mevc
 Kümeleme için kullanınlan data: 
 [Dataset: Sustainable Diet – The Database of Carbon Footprint and Embodied Nutrition of 388 Popular Recipes](https://figshare.com/articles/dataset/Sustainable_diet_the_database_of_carbon_footprint_and_embodied_nutrition_of_388_popular_recipes/22581394?file=42968395)
 
+**NOT.1:** Gemini AI promptu yanlış anlayabilir ve düzgün olmayan bir şekilde metin döndürebilir.
+
+**NOT.2:** Kümeleme algoritmasının eğitim değerleri ile kullanılan veri kaynağının değerleri farklı olduğu için kümelemede aynı sınıftan sonuçlar alınabilir. İlerleyen süreçte veri toplanarak güncellenecektir. 
+
 ## Lisans
 
 CC0
