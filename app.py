@@ -31,3 +31,19 @@ def index():
                 tarifler = json.load(f)
 
     return render_template("index.html", tarifler=tarifler)
+
+@app.route('/tarif_detay_json/<int:tarif_id>')
+def tarif_detay_json(tarif_id):
+    session = Session()
+    tarif = session.query(Yemek).get(tarif_id)
+    session.close()
+
+    if not tarif:
+        return jsonify({"error": "Tarif bulunamadı"}), 404
+
+    return jsonify({
+        "kalori": tarif.kalori,
+        "protein": 25,           # örnek veri
+        "karbonhidrat": 40,
+        "yag": 10
+    })

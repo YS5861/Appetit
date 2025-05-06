@@ -73,6 +73,8 @@
       cursor: pointer;
     }
     .recipes {
+      align-self: center;
+      align-items: center;
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
       gap: 1rem;
@@ -91,12 +93,16 @@
       color: white;
       margin-top: 2rem;
     }
+    .logo-container{
+
+      text-align: center;
+    }
   </style>
 </head>
 <body>
   <header>
     <div class="logo-container">
-      <img src="ChatGPT Image 4 May 2025 17_46_11.png" alt="Appetit Logo">
+      <img src="logo.jpg" alt="Appetit Logo">
       <h1>Appetit</h1>
     </div>
     <nav>
@@ -118,19 +124,50 @@
     </div>
   </form>
 </section>
-
-<!-- Tarifler Bölümü -->
-<sectio class="recipes">
+<section class="recipes">
   {% for tarif in tarifler %}
-  <div class="recipe-card">
-    <h3>{{ tarif.ad }}</h3>
-    <p>{{ tarif.tarif }}</p>
-  </div>
+<div class="recipe-card" data-tarif-id="{{ tarif.id }}" onclick="getDetails(this)">
+  <h3>{{ tarif.ad }}</h3>
+  <p>{{ tarif.tarif[:100] }}...</p>
+  <div id="detay-{{ tarif.id }}" style="display: none; margin-top: 1rem;"></div>
+</div>
+
   {% endfor %}
 </section>
 
   <footer>
     <p>&copy; 2025 Appetit. Tüm Hakları Saklıdır.</p>
   </footer>
+<!-- Bu kısımda kişi seçtiği tarife tıkladıktan sonra tarif bloğunun alt kısmındaki div tarifin detayları ve ürünlerin besin değerleri ile doldurulacak-->
+  <script>function getDetails(elem) {
+    
+      const tarifId = elem.getAttribute("data-tarif-id");
+      const detayDiv = document.getElementById('detay-' + tarifId);
+
+      if (detayDiv.style.display === 'block') {
+        detayDiv.style.display = 'none';
+        detayDiv.innerHTML = '';
+        return;
+      }
+
+      fetch(`/tarif_detay_json/${tarifId}`)
+        .then(response => response.json())
+        .then(data => {
+          detayDiv.style.display = 'block';
+          detayDiv.innerHTML = `
+        <p><strong>Kalori:</strong> ${data.kalori}</p>
+        <p><strong>Protein:</strong> ${data.protein}g</p>
+        <p><strong>Karbonhidrat:</strong> ${data.karbonhidrat}g</p>
+        <p><strong>Yağ:</strong> ${data.yag}g</p>
+      `;
+        })
+        .catch(error => {
+          detayDiv.innerHTML = `<p style="color: red;">Detaylar alınamadı.</p>`;
+          detayDiv.style.display = 'block';
+          console.error(error);
+        });
+    }
+
+  </script>
 </body>
 </html>
