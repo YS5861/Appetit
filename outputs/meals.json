@@ -1,18 +1,30 @@
 [
   {
-    "name": "Kıymalı Patlıcan Salatası",
+    "name": "Kıymalı Patates Güveci (Kayısı Soslu)",
     "ingredients": [
       {
-        "item": "Patlıcan",
-        "quantity": "2 adet"
+        "item": "Kıyma",
+        "quantity": "500g"
       },
       {
-        "item": "Kıyma",
-        "quantity": "250 gr"
+        "item": "Patates",
+        "quantity": "1kg"
+      },
+      {
+        "item": "Kayısı (kuru)",
+        "quantity": "100g"
+      },
+      {
+        "item": "Ceviz (kırılmış)",
+        "quantity": "50g"
       },
       {
         "item": "Domates",
         "quantity": "2 adet"
+      },
+      {
+        "item": "Limon",
+        "quantity": "1 adet"
       },
       {
         "item": "Soğan",
@@ -24,69 +36,101 @@
       },
       {
         "item": "Tuz",
-        "quantity": "1 çay kaşığı"
+        "quantity": "tatmak için"
       },
       {
         "item": "Karabiber",
-        "quantity": "Yarım çay kaşığı"
+        "quantity": "tatmak için"
       },
       {
         "item": "Kimyon",
-        "quantity": "Yarım çay kaşığı"
+        "quantity": "1 çay kaşığı"
       }
     ]
   },
   {
-    "name": "Karpuzlu Feta Salatası (Yan Yemek)",
+    "name": "Kayısılı Cevizli Kıymalı Köfte (Patates Püresiyle)",
     "ingredients": [
       {
-        "item": "Karpuz",
-        "quantity": "500 gr"
+        "item": "Kıyma",
+        "quantity": "500g"
       },
       {
-        "item": "Beyaz peynir",
-        "quantity": "100 gr"
+        "item": "Patates",
+        "quantity": "500g"
       },
       {
-        "item": "Nane",
-        "quantity": "Birkaç dal"
+        "item": "Kayısı (kuru, doğranmış)",
+        "quantity": "50g"
       },
       {
-        "item": "Zeytinyağı",
-        "quantity": "1 yemek kaşığı"
+        "item": "Ceviz (ince kıyılmış)",
+        "quantity": "50g"
+      },
+      {
+        "item": "Domates",
+        "quantity": "1 adet"
       },
       {
         "item": "Limon suyu",
         "quantity": "1 yemek kaşığı"
       },
       {
+        "item": "Un",
+        "quantity": "1 yemek kaşığı"
+      },
+      {
+        "item": "Süt",
+        "quantity": "1 su bardağı"
+      },
+      {
         "item": "Tuz",
-        "quantity": "1 çay kaşığı"
+        "quantity": "tatmak için"
+      },
+      {
+        "item": "Karabiber",
+        "quantity": "tatmak için"
+      },
+      {
+        "item": "Dereotu",
+        "quantity": "1 yemek kaşığı"
       }
     ]
   },
   {
-    "name": "Domatesli Kıymalı Makarna (Ana Yemek)",
+    "name": "Limonlu Domatesli Kıymalı Pilav (Kurutulmuş Kayısı ve Cevizli)",
     "ingredients": [
       {
         "item": "Kıyma",
-        "quantity": "250 gr"
+        "quantity": "400g"
+      },
+      {
+        "item": "Pirinç",
+        "quantity": "2 su bardağı"
       },
       {
         "item": "Domates",
         "quantity": "3 adet"
       },
       {
+        "item": "Kayısı (kuru, doğranmış)",
+        "quantity": "75g"
+      },
+      {
+        "item": "Ceviz (büyük parçalar)",
+        "quantity": "75g"
+      },
+      {
+        "item": "Limon suyu",
+        "quantity": "2 yemek kaşığı"
+      },
+      {
+        "item": "Su",
+        "quantity": "4 su bardağı"
+      },
+      {
         "item": "Soğan",
         "quantity": "1 adet"
-      },
-      {
-        "item": "Sarımsak",
-        "quantity": "2 diş"
-      },
-      {
-        "item": "Makarna",
-        "quantity": "400 gr"
       },
       {
         "item": "Sıvıyağ",
@@ -94,36 +138,11 @@
       },
       {
         "item": "Tuz",
-        "quantity": "1 çay kaşığı"
+        "quantity": "tatmak için"
       },
       {
         "item": "Karabiber",
-        "quantity": "Yarım çay kaşığı"
-      },
-      {
-        "item": "Kekik",
-        "quantity": "Yarım çay kaşığı"
-      }
-    ]
-  },
-  {
-    "name": "Beyaz Peynirli Karpuz Küpleri (Tatlı)",
-    "ingredients": [
-      {
-        "item": "Karpuz",
-        "quantity": "500 gr"
-      },
-      {
-        "item": "Beyaz peynir",
-        "quantity": "100 gr"
-      },
-      {
-        "item": "Nane",
-        "quantity": "Birkaç dal"
-      },
-      {
-        "item": "Bal",
-        "quantity": "1 yemek kaşığı"
+        "quantity": "tatmak için"
       }
     ]
   }

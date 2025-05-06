@@ -1,18 +1,14 @@
 [
   {
-    "meal": "Kıymalı Patlıcan Salatası",
-    "steps": "1. Patlıcanları küp küp doğrayıp tuzlayın ve 15 dakika bekletin. Fazla suyunu sıkın. 2. Soğanı doğrayıp sıvıyağda kavurun. Kıymayı ekleyip kızarana kadar pişirin. 3. Doğranmış domatesleri, baharatları ekleyip pişmeye bırakın. 4. Patlıcanları ekleyip 5 dakika daha pişirin. Servis edin."
+    "meal": "Kıymalı Patates Güveci (Kayısı Soslu)",
+    "steps": "1. Patatesleri soyup küp doğrayın. 2. Kıymayı soğanla kavurun. 3. Patatesleri, kıymayı, tuz, karabiberi ve kimyonu karıştırın. 4. Yağlanmış fırın kabına koyun. 5. Kayısıları suda yumuşatın ve püre haline getirin. 6. Domatesleri doğrayıp kayısı püresine ekleyin. 7. Güveç üzerine sosu dökün. 8. 180 derecede 45 dakika pişirin. 9. Üzerine kıyılmış ceviz serpin."
   },
   {
-    "meal": "Karpuzlu Feta Salatası",
-    "steps": "1. Karpuzu küp küp doğrayın. 2. Beyaz peyniri küp küp doğrayın. 3. Naneyi ince ince kıyın. 4. Karpuz, peynir ve naneyi bir kapta karıştırın. 5. Zeytinyağı, limon suyu ve tuzu ekleyip karıştırın. Servis edin."
+    "meal": "Kayısılı Cevizli Kıymalı Köfte (Patates Püresiyle)",
+    "steps": "1. Kıymaya, kayısı, ceviz, limon suyu, tuz ve karabiberi ekleyin. 2. Köfteleri yuvarlayın. 3. Patatesleri haşlayıp püre haline getirin. 4. Köfteleri kızartın veya fırında pişirin. 5. Patates püresini servis tabağına koyun. 6. Köfteleri pürenin üzerine yerleştirin. 7. Üzerine doğranmış domates ve dereotu serpin."
   },
   {
-    "meal": "Domatesli Kıymalı Makarna",
-    "steps": "1. Soğan ve sarımsağı doğrayıp sıvı yağda kavurun. 2. Kıymayı ekleyip kızarana kadar pişirin. 3. Doğranmış domatesleri, baharatları ekleyip 10 dakika pişirin. 4. Makarnayı haşlayın. 5. Sosu makarnaya ekleyip karıştırın. Servis edin."
-  },
-  {
-    "meal": "Beyaz Peynirli Karpuz Küpleri",
-    "steps": "1. Karpuzu küp küp doğrayın. 2. Beyaz peyniri küp küp doğrayın. 3. Naneyi ince ince kıyın. 4. Karpuz ve peynir küplerini bir kapta karıştırın. 5. Üzerine bal ve nane serpin. Servis edin."
+    "meal": "Limonlu Domatesli Kıymalı Pilav (Kurutulmuş Kayısı ve Cevizli)",
+    "steps": "1. Pirinci yıkayın. 2. Soğanı kavurun. 3. Kıymayı ekleyip pişirin. 4. Domatesleri doğrayıp ekleyin. 5. Pirinci, suyu, limon suyunu, tuzu, karabiberi ve kayısıları ekleyin. 6. Kaynatın, kısık ateşte pişirin. 7. Pişerken karıştırın. 8. Servis ederken üzerine ceviz serpin."
   }
 ]

@@ -2,81 +2,95 @@
 {
   "meals": [
     {
-      "name": "Kıymalı Patlıcan Salatası",
+      "name": "Kıymalı Patates Güveci (Kayısı Soslu)",
       "ingredients": [
-        {"item": "Patlıcan", "quantity": "2 adet"},
-        {"item": "Kıyma", "quantity": "250 gr"},
+        {"item": "Kıyma", "quantity": "500g"},
+        {"item": "Patates", "quantity": "1kg"},
+        {"item": "Kayısı (kuru)", "quantity": "100g"},
+        {"item": "Ceviz (kırılmış)", "quantity": "50g"},
         {"item": "Domates", "quantity": "2 adet"},
+        {"item": "Limon", "quantity": "1 adet"},
         {"item": "Soğan", "quantity": "1 adet"},
         {"item": "Sıvıyağ", "quantity": "2 yemek kaşığı"},
-        {"item": "Tuz", "quantity": "1 çay kaşığı"},
-        {"item": "Karabiber", "quantity": "Yarım çay kaşığı"},
-        {"item": "Kimyon", "quantity": "Yarım çay kaşığı"}
+        {"item": "Tuz", "quantity": "tatmak için"},
+        {"item": "Karabiber", "quantity": "tatmak için"},
+        {"item": "Kimyon", "quantity": "1 çay kaşığı"}
       ]
     },
     {
-      "name": "Karpuzlu Feta Salatası (Yan Yemek)",
+      "name": "Kayısılı Cevizli Kıymalı Köfte (Patates Püresiyle)",
       "ingredients": [
-        {"item": "Karpuz", "quantity": "500 gr"},
-        {"item": "Beyaz peynir", "quantity": "100 gr"},
-        {"item": "Nane", "quantity": "Birkaç dal"},
-        {"item": "Zeytinyağı", "quantity": "1 yemek kaşığı"},
+        {"item": "Kıyma", "quantity": "500g"},
+        {"item": "Patates", "quantity": "500g"},
+        {"item": "Kayısı (kuru, doğranmış)", "quantity": "50g"},
+        {"item": "Ceviz (ince kıyılmış)", "quantity": "50g"},
+        {"item": "Domates", "quantity": "1 adet"},
         {"item": "Limon suyu", "quantity": "1 yemek kaşığı"},
-        {"item": "Tuz", "quantity": "1 çay kaşığı"}
-
+        {"item": "Un", "quantity": "1 yemek kaşığı"},
+        {"item": "Süt", "quantity": "1 su bardağı"},
+        {"item": "Tuz", "quantity": "tatmak için"},
+        {"item": "Karabiber", "quantity": "tatmak için"},
+        {"item": "Dereotu", "quantity": "1 yemek kaşığı"}
       ]
     },
     {
-      "name": "Domatesli Kıymalı Makarna (Ana Yemek)",
+      "name": "Limonlu Domatesli Kıymalı Pilav (Kurutulmuş Kayısı ve Cevizli)",
       "ingredients": [
-        {"item": "Kıyma", "quantity": "250 gr"},
+        {"item": "Kıyma", "quantity": "400g"},
+        {"item": "Pirinç", "quantity": "2 su bardağı"},
         {"item": "Domates", "quantity": "3 adet"},
+        {"item": "Kayısı (kuru, doğranmış)", "quantity": "75g"},
+        {"item": "Ceviz (büyük parçalar)", "quantity": "75g"},
+        {"item": "Limon suyu", "quantity": "2 yemek kaşığı"},
+        {"item": "Su", "quantity": "4 su bardağı"},
         {"item": "Soğan", "quantity": "1 adet"},
-        {"item": "Sarımsak", "quantity": "2 diş"},
-        {"item": "Makarna", "quantity": "400 gr"},
         {"item": "Sıvıyağ", "quantity": "2 yemek kaşığı"},
-        {"item": "Tuz", "quantity": "1 çay kaşığı"},
-        {"item": "Karabiber", "quantity": "Yarım çay kaşığı"},
-        {"item": "Kekik", "quantity": "Yarım çay kaşığı"}
-      ]
-    },
-    {
-      "name": "Beyaz Peynirli Karpuz Küpleri (Tatlı)",
-      "ingredients": [
-        {"item": "Karpuz", "quantity": "500 gr"},
-        {"item": "Beyaz peynir", "quantity": "100 gr"},
-        {"item": "Nane", "quantity": "Birkaç dal"},
-        {"item": "Bal", "quantity": "1 yemek kaşığı"}
-
+        {"item": "Tuz", "quantity": "tatmak için"},
+        {"item": "Karabiber", "quantity": "tatmak için"}
       ]
     }
-
   ],
   "instructions": [
     {
-      "meal": "Kıymalı Patlıcan Salatası",
-      "steps": "1. Patlıcanları küp küp doğrayıp tuzlayın ve 15 dakika bekletin. Fazla suyunu sıkın. 2. Soğanı doğrayıp sıvıyağda kavurun. Kıymayı ekleyip kızarana kadar pişirin. 3. Doğranmış domatesleri, baharatları ekleyip pişmeye bırakın. 4. Patlıcanları ekleyip 5 dakika daha pişirin. Servis edin."
+      "meal": "Kıymalı Patates Güveci (Kayısı Soslu)",
+      "steps": "1. Patatesleri soyup küp doğrayın. 2. Kıymayı soğanla kavurun. 3. Patatesleri, kıymayı, tuz, karabiberi ve kimyonu karıştırın. 4. Yağlanmış fırın kabına koyun. 5. Kayısıları suda yumuşatın ve püre haline getirin. 6. Domatesleri doğrayıp kayısı püresine ekleyin. 7. Güveç üzerine sosu dökün. 8. 180 derecede 45 dakika pişirin. 9. Üzerine kıyılmış ceviz serpin."
     },
     {
-      "meal": "Karpuzlu Feta Salatası",
-      "steps": "1. Karpuzu küp küp doğrayın. 2. Beyaz peyniri küp küp doğrayın. 3. Naneyi ince ince kıyın. 4. Karpuz, peynir ve naneyi bir kapta karıştırın. 5. Zeytinyağı, limon suyu ve tuzu ekleyip karıştırın. Servis edin."
+      "meal": "Kayısılı Cevizli Kıymalı Köfte (Patates Püresiyle)",
+      "steps": "1. Kıymaya, kayısı, ceviz, limon suyu, tuz ve karabiberi ekleyin. 2. Köfteleri yuvarlayın. 3. Patatesleri haşlayıp püre haline getirin. 4. Köfteleri kızartın veya fırında pişirin. 5. Patates püresini servis tabağına koyun. 6. Köfteleri pürenin üzerine yerleştirin. 7. Üzerine doğranmış domates ve dereotu serpin."
     },
     {
-      "meal": "Domatesli Kıymalı Makarna",
-      "steps": "1. Soğan ve sarımsağı doğrayıp sıvı yağda kavurun. 2. Kıymayı ekleyip kızarana kadar pişirin. 3. Doğranmış domatesleri, baharatları ekleyip 10 dakika pişirin. 4. Makarnayı haşlayın. 5. Sosu makarnaya ekleyip karıştırın. Servis edin."
-    },
-    {
-      "meal": "Beyaz Peynirli Karpuz Küpleri",
-      "steps": "1. Karpuzu küp küp doğrayın. 2. Beyaz peyniri küp küp doğrayın. 3. Naneyi ince ince kıyın. 4. Karpuz ve peynir küplerini bir kapta karıştırın. 5. Üzerine bal ve nane serpin. Servis edin."
+      "meal": "Limonlu Domatesli Kıymalı Pilav (Kurutulmuş Kayısı ve Cevizli)",
+      "steps": "1. Pirinci yıkayın. 2. Soğanı kavurun. 3. Kıymayı ekleyip pişirin. 4. Domatesleri doğrayıp ekleyin. 5. Pirinci, suyu, limon suyunu, tuzu, karabiberi ve kayısıları ekleyin. 6. Kaynatın, kısık ateşte pişirin. 7. Pişerken karıştırın. 8. Servis ederken üzerine ceviz serpin."
     }
   ],
   "macros": [
-    {"name": "Kıymalı Patlıcan Salatası", "carbs_g": 20, "protein_g": 30, "fat_g": 25, "calories_kcal": 350, "GHG": 500},
-    {"name": "Karpuzlu Feta Salatası", "carbs_g": 25, "protein_g": 15, "fat_g": 10, "calories_kcal": 200, "GHG": 200},
-    {"name": "Domatesli Kıymalı Makarna", "carbs_g": 70, "protein_g": 35, "fat_g": 20, "calories_kcal": 550, "GHG": 700},
-    {"name": "Beyaz Peynirli Karpuz Küpleri", "carbs_g": 30, "protein_g": 10, "fat_g": 5, "calories_kcal": 180, "GHG": 150}
+    {
+      "name": "Kıymalı Patates Güveci (Kayısı Soslu)",
+      "carbs_g": 100,
+      "protein_g": 60,
+      "fat_g": 40,
+      "calories_kcal": 700,
+      "GHG": 1000
+    },
+    {
+      "name": "Kayısılı Cevizli Kıymalı Köfte (Patates Püresiyle)",
+      "carbs_g": 80,
+      "protein_g": 50,
+      "fat_g": 35,
+      "calories_kcal": 650,
+      "GHG": 900
+    },
+    {
+      "name": "Limonlu Domatesli Kıymalı Pilav (Kurutulmuş Kayısı ve Cevizli)",
+      "carbs_g": 120,
+      "protein_g": 55,
+      "fat_g": 30,
+      "calories_kcal": 600,
+      "GHG": 800
+    }
   ]
 }
 ```
 
-**Not:**  Makro besin değerleri ve sera gazı salınımı tahmini değerlerdir ve kullanılan malzemelerin özelliğine, miktarına ve pişirme yöntemine bağlı olarak değişebilir.  Gerçek değerler için detaylı bir besin değerleri analizi ve yaşam döngüsü değerlendirmesi gereklidir.  Ayrıca, Soğan gibi bazı malzemeler tariflerde eksik kalmış olup,  tariflerin tamamlanması için eklenmiştir.
+**Not:** Makro besin değerleri ve sera gazı salınımı tahmini değerlerdir. Gerçek değerler, kullanılan malzemelerin özelliğine ve pişirme yöntemine bağlı olarak değişebilir.  Bu değerleri doğru bir şekilde hesaplamak için detaylı besin analizi ve yaşam döngüsü değerlendirmesi gereklidir.
