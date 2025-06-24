@@ -1,148 +1,112 @@
 [
   {
-    "name": "Kıymalı Patates Güveci (Kayısı Soslu)",
+    "name": "Tavuk Şiş",
     "ingredients": [
       {
-        "item": "Kıyma",
+        "item": "Tavuk göğüs",
         "quantity": "500g"
       },
       {
-        "item": "Patates",
-        "quantity": "1kg"
-      },
-      {
-        "item": "Kayısı (kuru)",
-        "quantity": "100g"
-      },
-      {
-        "item": "Ceviz (kırılmış)",
-        "quantity": "50g"
+        "item": "Soğan",
+        "quantity": "2 adet"
       },
       {
         "item": "Domates",
         "quantity": "2 adet"
       },
       {
-        "item": "Limon",
+        "item": "Yeşil biber",
         "quantity": "1 adet"
       },
       {
-        "item": "Soğan",
-        "quantity": "1 adet"
+        "item": "Zeytinyağı",
+        "quantity": "4 yemek kaşığı"
       },
       {
-        "item": "Sıvıyağ",
-        "quantity": "2 yemek kaşığı"
-      },
-      {
-        "item": "Tuz",
-        "quantity": "tatmak için"
-      },
-      {
-        "item": "Karabiber",
-        "quantity": "tatmak için"
+        "item": "Pul biber",
+        "quantity": "1 tatlı kaşığı"
       },
       {
         "item": "Kimyon",
         "quantity": "1 çay kaşığı"
+      },
+      {
+        "item": "Tuz",
+        "quantity": "Tada göre"
       }
     ]
   },
   {
-    "name": "Kayısılı Cevizli Kıymalı Köfte (Patates Püresiyle)",
+    "name": "Kuzu Pirzola",
     "ingredients": [
       {
-        "item": "Kıyma",
-        "quantity": "500g"
+        "item": "Kuzu pirzola",
+        "quantity": "6 adet"
       },
       {
         "item": "Patates",
         "quantity": "500g"
       },
       {
-        "item": "Kayısı (kuru, doğranmış)",
-        "quantity": "50g"
-      },
-      {
-        "item": "Ceviz (ince kıyılmış)",
-        "quantity": "50g"
-      },
-      {
-        "item": "Domates",
+        "item": "Soğan",
         "quantity": "1 adet"
       },
       {
-        "item": "Limon suyu",
-        "quantity": "1 yemek kaşığı"
+        "item": "Sarımsak",
+        "quantity": "2 diş"
       },
       {
-        "item": "Un",
-        "quantity": "1 yemek kaşığı"
+        "item": "Zeytinyağı",
+        "quantity": "3 yemek kaşığı"
       },
       {
-        "item": "Süt",
-        "quantity": "1 su bardağı"
+        "item": "Kekik",
+        "quantity": "1 çay kaşığı"
       },
       {
         "item": "Tuz",
-        "quantity": "tatmak için"
+        "quantity": "Tada göre"
       },
       {
         "item": "Karabiber",
-        "quantity": "tatmak için"
-      },
-      {
-        "item": "Dereotu",
-        "quantity": "1 yemek kaşığı"
+        "quantity": "Tada göre"
       }
     ]
   },
   {
-    "name": "Limonlu Domatesli Kıymalı Pilav (Kurutulmuş Kayısı ve Cevizli)",
+    "name": "Ispanaklı Börek",
     "ingredients": [
       {
-        "item": "Kıyma",
-        "quantity": "400g"
+        "item": "Yufka",
+        "quantity": "5 adet"
       },
       {
-        "item": "Pirinç",
-        "quantity": "2 su bardağı"
+        "item": "Ispanak",
+        "quantity": "500g"
       },
       {
-        "item": "Domates",
-        "quantity": "3 adet"
-      },
-      {
-        "item": "Kayısı (kuru, doğranmış)",
-        "quantity": "75g"
-      },
-      {
-        "item": "Ceviz (büyük parçalar)",
-        "quantity": "75g"
-      },
-      {
-        "item": "Limon suyu",
-        "quantity": "2 yemek kaşığı"
-      },
-      {
-        "item": "Su",
-        "quantity": "4 su bardağı"
+        "item": "Peynir",
+        "quantity": "200g"
       },
       {
         "item": "Soğan",
         "quantity": "1 adet"
       },
       {
-        "item": "Sıvıyağ",
-        "quantity": "2 yemek kaşığı"
+        "item": "Sıvı yağ",
+        "quantity": "5 yemek kaşığı"
+      },
+      {
+        "item": "Yumurta",
+        "quantity": "1 adet"
       },
       {
         "item": "Tuz",
-        "quantity": "tatmak için"
+        "quantity": "Tada göre"
       },
       {
         "item": "Karabiber",
-        "quantity": "tatmak için"
+        "quantity": "Tada göre"
       }
     ]
   }

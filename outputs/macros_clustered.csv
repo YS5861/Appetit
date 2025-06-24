@@ -1,4 +1,4 @@
-name,carbs_g,protein_g,fat_g,calories_kcal,GHG,pca1,pca2,cluster
-Kıymalı Patates Güveci (Kayısı Soslu),100,60,40,700,1000,55.98188264728669,-6.785549283824061,2
-Kayısılı Cevizli Kıymalı Köfte (Patates Püresiyle),80,50,35,650,900,50.28685100153687,-5.409767994619233,2
-Limonlu Domatesli Kıymalı Pilav (Kurutulmuş Kayısı ve Cevizli),120,55,30,600,800,44.71867544948198,-4.069375473619851,2
+name,carbs,protein,fat,calories,GHG,pca1,pca2,cluster
+Tavuk Şiş,20,40,25,450,500,27.975700638280113,-0.1549689285850156,2
+Kuzu Pirzola,30,50,40,650,800,45.5906561208031,-2.64270650749737,2
+Ispanaklı Börek,50,20,30,550,600,34.26013657686582,0.04671823131503854,2

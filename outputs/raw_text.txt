@@ -1,96 +1,68 @@
+Soruda verilen "Türkiye'nin başkenti neresi" bilgisi yemek tarifleriyle alakasız olduğu için, bu bilgiyi dikkate almayarak bir örnek yemek listesi oluşturdum.  Makro besin değerleri ve sera gazı salınımı tahmini olup, hassas ölçümler için uzman analizleri gerekmektedir.
+
 ```json
 {
   "meals": [
     {
-      "name": "Kıymalı Patates Güveci (Kayısı Soslu)",
+      "name": "Tavuk Şiş",
       "ingredients": [
-        {"item": "Kıyma", "quantity": "500g"},
-        {"item": "Patates", "quantity": "1kg"},
-        {"item": "Kayısı (kuru)", "quantity": "100g"},
-        {"item": "Ceviz (kırılmış)", "quantity": "50g"},
+        {"item": "Tavuk göğüs", "quantity": "500g"},
+        {"item": "Soğan", "quantity": "2 adet"},
         {"item": "Domates", "quantity": "2 adet"},
-        {"item": "Limon", "quantity": "1 adet"},
-        {"item": "Soğan", "quantity": "1 adet"},
-        {"item": "Sıvıyağ", "quantity": "2 yemek kaşığı"},
-        {"item": "Tuz", "quantity": "tatmak için"},
-        {"item": "Karabiber", "quantity": "tatmak için"},
-        {"item": "Kimyon", "quantity": "1 çay kaşığı"}
+        {"item": "Yeşil biber", "quantity": "1 adet"},
+        {"item": "Zeytinyağı", "quantity": "4 yemek kaşığı"},
+        {"item": "Pul biber", "quantity": "1 tatlı kaşığı"},
+        {"item": "Kimyon", "quantity": "1 çay kaşığı"},
+        {"item": "Tuz", "quantity": "Tada göre"}
       ]
     },
     {
-      "name": "Kayısılı Cevizli Kıymalı Köfte (Patates Püresiyle)",
+      "name": "Kuzu Pirzola",
       "ingredients": [
-        {"item": "Kıyma", "quantity": "500g"},
+        {"item": "Kuzu pirzola", "quantity": "6 adet"},
         {"item": "Patates", "quantity": "500g"},
-        {"item": "Kayısı (kuru, doğranmış)", "quantity": "50g"},
-        {"item": "Ceviz (ince kıyılmış)", "quantity": "50g"},
-        {"item": "Domates", "quantity": "1 adet"},
-        {"item": "Limon suyu", "quantity": "1 yemek kaşığı"},
-        {"item": "Un", "quantity": "1 yemek kaşığı"},
-        {"item": "Süt", "quantity": "1 su bardağı"},
-        {"item": "Tuz", "quantity": "tatmak için"},
-        {"item": "Karabiber", "quantity": "tatmak için"},
-        {"item": "Dereotu", "quantity": "1 yemek kaşığı"}
+        {"item": "Soğan", "quantity": "1 adet"},
+        {"item": "Sarımsak", "quantity": "2 diş"},
+        {"item": "Zeytinyağı", "quantity": "3 yemek kaşığı"},
+        {"item": "Kekik", "quantity": "1 çay kaşığı"},
+        {"item": "Tuz", "quantity": "Tada göre"},
+        {"item": "Karabiber", "quantity": "Tada göre"}
       ]
     },
     {
-      "name": "Limonlu Domatesli Kıymalı Pilav (Kurutulmuş Kayısı ve Cevizli)",
+      "name": "Ispanaklı Börek",
       "ingredients": [
-        {"item": "Kıyma", "quantity": "400g"},
-        {"item": "Pirinç", "quantity": "2 su bardağı"},
-        {"item": "Domates", "quantity": "3 adet"},
-        {"item": "Kayısı (kuru, doğranmış)", "quantity": "75g"},
-        {"item": "Ceviz (büyük parçalar)", "quantity": "75g"},
-        {"item": "Limon suyu", "quantity": "2 yemek kaşığı"},
-        {"item": "Su", "quantity": "4 su bardağı"},
+        {"item": "Yufka", "quantity": "5 adet"},
+        {"item": "Ispanak", "quantity": "500g"},
+        {"item": "Peynir", "quantity": "200g"},
         {"item": "Soğan", "quantity": "1 adet"},
-        {"item": "Sıvıyağ", "quantity": "2 yemek kaşığı"},
-        {"item": "Tuz", "quantity": "tatmak için"},
-        {"item": "Karabiber", "quantity": "tatmak için"}
+        {"item": "Sıvı yağ", "quantity": "5 yemek kaşığı"},
+        {"item": "Yumurta", "quantity": "1 adet"},
+        {"item": "Tuz", "quantity": "Tada göre"},
+        {"item": "Karabiber", "quantity": "Tada göre"}
       ]
     }
   ],
   "instructions": [
     {
-      "meal": "Kıymalı Patates Güveci (Kayısı Soslu)",
-      "steps": "1. Patatesleri soyup küp doğrayın. 2. Kıymayı soğanla kavurun. 3. Patatesleri, kıymayı, tuz, karabiberi ve kimyonu karıştırın. 4. Yağlanmış fırın kabına koyun. 5. Kayısıları suda yumuşatın ve püre haline getirin. 6. Domatesleri doğrayıp kayısı püresine ekleyin. 7. Güveç üzerine sosu dökün. 8. 180 derecede 45 dakika pişirin. 9. Üzerine kıyılmış ceviz serpin."
+      "meal": "Tavuk Şiş",
+      "steps": "Tavukları küp küp doğrayın. Soğan, domates ve yeşil biberi de doğrayın. Tüm malzemeleri karıştırıp, en az 30 dakika marine edin. Şişlere dizip, ızgarada veya fırında pişirin."
     },
     {
-      "meal": "Kayısılı Cevizli Kıymalı Köfte (Patates Püresiyle)",
-      "steps": "1. Kıymaya, kayısı, ceviz, limon suyu, tuz ve karabiberi ekleyin. 2. Köfteleri yuvarlayın. 3. Patatesleri haşlayıp püre haline getirin. 4. Köfteleri kızartın veya fırında pişirin. 5. Patates püresini servis tabağına koyun. 6. Köfteleri pürenin üzerine yerleştirin. 7. Üzerine doğranmış domates ve dereotu serpin."
+      "meal": "Kuzu Pirzola",
+      "steps": "Patatesleri ve soğanı küp küp doğrayın. Sarımsağı ezin. Zeytinyağı, kekik, tuz ve karabiberi patates ve soğanla karıştırın. Kuzu pirzolaları yağlayın ve baharatlayın. Patatesleri ve pirzolaları fırında pişirin."
     },
     {
-      "meal": "Limonlu Domatesli Kıymalı Pilav (Kurutulmuş Kayısı ve Cevizli)",
-      "steps": "1. Pirinci yıkayın. 2. Soğanı kavurun. 3. Kıymayı ekleyip pişirin. 4. Domatesleri doğrayıp ekleyin. 5. Pirinci, suyu, limon suyunu, tuzu, karabiberi ve kayısıları ekleyin. 6. Kaynatın, kısık ateşte pişirin. 7. Pişerken karıştırın. 8. Servis ederken üzerine ceviz serpin."
+      "meal": "Ispanaklı Börek",
+      "steps": "Ispanağı yıkayıp doğrayın. Soğanı da doğrayıp, sıvı yağda kavurun. Ispanağı ekleyip, suyunu çekene kadar pişirin. Peynir ve baharatları ekleyin. Yufkaları yağlayarak üzerine iç harcı yayın ve rulo yapın. Dilimler halinde kesip fırında pişirin."
     }
   ],
   "macros": [
-    {
-      "name": "Kıymalı Patates Güveci (Kayısı Soslu)",
-      "carbs_g": 100,
-      "protein_g": 60,
-      "fat_g": 40,
-      "calories_kcal": 700,
-      "GHG": 1000
-    },
-    {
-      "name": "Kayısılı Cevizli Kıymalı Köfte (Patates Püresiyle)",
-      "carbs_g": 80,
-      "protein_g": 50,
-      "fat_g": 35,
-      "calories_kcal": 650,
-      "GHG": 900
-    },
-    {
-      "name": "Limonlu Domatesli Kıymalı Pilav (Kurutulmuş Kayısı ve Cevizli)",
-      "carbs_g": 120,
-      "protein_g": 55,
-      "fat_g": 30,
-      "calories_kcal": 600,
-      "GHG": 800
-    }
+    {"name": "Tavuk Şiş", "carbs": 20, "protein": 40, "fat": 25, "calories": 450, "GHG": 500},
+    {"name": "Kuzu Pirzola", "carbs": 30, "protein": 50, "fat": 40, "calories": 650, "GHG": 800},
+    {"name": "Ispanaklı Börek", "carbs": 50, "protein": 20, "fat": 30, "calories": 550, "GHG": 600}
   ]
 }
 ```
 
-**Not:** Makro besin değerleri ve sera gazı salınımı tahmini değerlerdir. Gerçek değerler, kullanılan malzemelerin özelliğine ve pişirme yöntemine bağlı olarak değişebilir.  Bu değerleri doğru bir şekilde hesaplamak için detaylı besin analizi ve yaşam döngüsü değerlendirmesi gereklidir.
+**Not:**  GHG (Sera Gazı Salınımı) değerleri tahmini olup, gıda üretimi, pişirme yöntemi, malzemelerin kökeni gibi faktörlere göre değişir.  Kalori ve makro besin değerleri de kişi başı yaklaşık değerlerdir.  Daha kesin değerler için besin analiz raporları gerekmektedir.  Tarifler de dört kişilik için ayarlanmıştır.  Üç ana yemek belirttiğiniz için, yan yemek olarak patates ve salata gibi eklemeler düşünebilirsiniz.
